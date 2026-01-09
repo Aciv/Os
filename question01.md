@@ -107,7 +107,7 @@ L6:
 ```
 其中n是中断号，addr是中断处理程序地址，_set_gate第二个参数是类型，第三个参数是dpl，这些参数用来设置IDT
 IDT如图：
-![alt text](ecbfc398056c8488b9563d949953f8cc.jpg)
+![alt text](./ecbfc398056c8488b9563d949953f8cc.jpg)
 设置代码：
 ```c
 #define _set_gate(gate_addr,type,dpl,addr) \
